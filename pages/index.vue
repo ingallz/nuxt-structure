@@ -116,6 +116,12 @@ const pages = [
     path: '/performance-optimization',
     icon: 'mdi:speedometer',
   },
+  {
+    title: 'Authentication',
+    description: 'Implementation with @nuxtjs/auth-next',
+    path: '/authentication',
+    icon: 'mdi:account-lock',
+  },
   // Add more pages here as they are created
 ];
 </script>
