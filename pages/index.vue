@@ -104,6 +104,18 @@ const pages = [
     path: '/state-management',
     icon: 'mdi:database',
   },
+  {
+    title: 'API Integration',
+    description: 'Axios and Fetch API for HTTP requests',
+    path: '/api-integration',
+    icon: 'mdi:api',
+  },
+  {
+    title: 'Performance Optimization',
+    description: 'Lazy loading and code splitting techniques',
+    path: '/performance-optimization',
+    icon: 'mdi:speedometer',
+  },
   // Add more pages here as they are created
 ];
 </script>
