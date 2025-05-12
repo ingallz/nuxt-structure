@@ -122,6 +122,12 @@ const pages = [
     path: '/authentication',
     icon: 'mdi:account-lock',
   },
+  {
+    title: 'Utility Libraries',
+    description: 'Lodash, Moment.js and other helpful tools',
+    path: '/utility-libraries',
+    icon: 'mdi:tools',
+  },
   // Add more pages here as they are created
 ];
 </script>
