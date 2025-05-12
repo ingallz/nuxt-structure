@@ -98,6 +98,12 @@ const pages = [
     path: '/vue-fundamentals',
     icon: 'mdi:vuejs',
   },
+  {
+    title: 'State Management',
+    description: 'Vuex and Pinia for state management',
+    path: '/state-management',
+    icon: 'mdi:database',
+  },
   // Add more pages here as they are created
 ];
 </script>
