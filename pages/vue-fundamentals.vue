@@ -281,6 +281,11 @@ const addItem = () => {
 const firstName = ref('John');
 const lastName = ref('Doe');
 
+// A computed property that automatically updates when its dependencies (firstName or lastName) change
+// It concatenates firstName and lastName if both exist, otherwise shows a placeholder message
+// The computation is cached and only re-runs when the dependencies change
+// This is more efficient than using a method which would re-run on every render
+// Similar to React's useMemo hook which also memoizes computed values based on dependencies
 const fullName = computed(() => {
   return firstName.value && lastName.value
     ? `${firstName.value} ${lastName.value}`
